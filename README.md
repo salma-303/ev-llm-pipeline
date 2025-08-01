@@ -39,7 +39,7 @@ This project builds an end-to-end fine-tuning pipeline for a domain-specific LLM
 - Hugging Face Trainer with:
     - transformers, datasets, bitsandbytes, peft
     - Gradient accumulation and FP16
-    - WandB integration for logging
+    - WandB integration for logging you can check it [here](https://wandb.ai/salmawaleed303-arab-academy-for-science-technology-marit/huggingface/runs/p4i7oaxz?nw=nwusersalmawaleed303)
 
 - Output:
     - Adapter weights
