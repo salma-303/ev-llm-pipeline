@@ -1,0 +1,20 @@
+name: Run EV LLM Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"  # every Monday
+
+jobs:
+  run_pipeline:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.11.3
+    - run: pip install -r requirements.txt
+    - run: python src/main.py
+    - run: python src/main_qa.py
+    - run: python src/eval/benchmark_eval.py
