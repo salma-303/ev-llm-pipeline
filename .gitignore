@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS / Linux system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Output files
+*.out
+*.tmp
+
+# Model or vector stores (optional)
+data/vectors/*
+!data/vectors/.gitkeep
+
+# Compiled Cython or C extensions
+*.so
+
+# Reports and generated artifacts
+reports/
+outputs/

@@ -1,0 +1,52 @@
+logging:
+  level: INFO
+gemini_api:
+  api_key_env: GEMINI_API_KEY
+
+data_sources:
+  vector_dir: data/vectors
+
+data_collection:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  metadata_file: data/sources.csv
+  sources:
+    - type: url
+      title: "ISO 15118 Overview"
+      url: "https://go-e.com/en/magazine/iso-15118-the-standard-you-cant-afford-to-ignore-any-longer"
+      section: "Plug & Charge"
+
+    - type: url
+      title: "ISO 15118 Explained"
+      url: "https://www.evboosters.com/ev-charging-academy/articles-blogs/iso-15118-explained"
+      section: "Communication Protocols"
+
+    - type: url
+      title: "EV Glossary"
+      url: "https://evcnice.com/blog/understanding-iso-15118-for-international-ev-charger-sales"
+      section: "Glossary"
+
+    - type: url
+      title: "EVCNICE Blog"
+      url: "https://evcnice.com/blog/"
+      section: "Blog"
+
+    - type: url
+      title: "IEC 61851 Explained"
+      url: "https://www.evengineeringonline.com/what-is-the-iec-61851-1-standard-for-ev-charging/"
+      section: "Modes & Safety"
+
+    - type: url
+      title: "ISO 15118 for Smart Grid Integration"
+      url: "https://www.evengineeringonline.com/what-is-the-iso-15118-standard-meant-for-integrating-evs-with-smart-grids/"
+      section: "Smart Charging & Grid"
+
+    - type: pdf
+      title: "EV Charging Infrastructure - Climate Strategy"
+      file_path: "data/raw/EV Charging Infrastructure - Climate Strategies that Work.pdf"
+      section: "US Policy"
+
+    - type: pdf
+      title: "NITI EV Handbook 2021"
+      file_path: "data/raw/HandbookforEVChargingInfrastructureImplementation081221.pdf"
+      section: "Planning & Infrastructure"

@@ -1,0 +1,15 @@
+pydantic
+pyyaml
+google-genai
+langchain
+faiss-cpu                
+python-dotenv
+loguru
+pytest
+
+beautifulsoup4
+requests
+PyMuPDF
+PyYAML
+playwright
+
