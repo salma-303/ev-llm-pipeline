@@ -19,3 +19,7 @@ peft
 bitsandbytes 
 accelerate 
 wandb
+evaluate
+nltk 
+absl 
+rouge_score
