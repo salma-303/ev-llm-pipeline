@@ -13,3 +13,9 @@ PyMuPDF
 PyYAML
 playwright
 
+transformers 
+datasets 
+peft 
+bitsandbytes 
+accelerate 
+wandb
