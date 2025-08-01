@@ -1,6 +1,6 @@
 pydantic
 pyyaml
-google-genai
+openai
 langchain
 faiss-cpu                
 python-dotenv

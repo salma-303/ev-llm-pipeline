@@ -1,0 +1,16 @@
+# qa_instruction.txt
+Generate exactly 5 relevant question-answer pairs from:
+<text>
+{context}
+</text>
+
+Format strictly as:
+Q1: [question1]
+A1: [answer1]
+Q2: [question2]
+A2: [answer2]
+...
+Q5: [question5]
+A5: [answer5]
+
+Only use information present in the text.

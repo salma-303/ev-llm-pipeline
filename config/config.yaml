@@ -1,7 +1,11 @@
 logging:
   level: INFO
-gemini_api:
-  api_key_env: GEMINI_API_KEY
+
+deepseek_api:
+  api_key_env: DEEPSEEK_API_KEY
+  model: deepseek/deepseek-r1:free
+  base_url: https://openrouter.ai/api/v1
+
 
 data_sources:
   vector_dir: data/vectors
@@ -50,3 +54,7 @@ data_collection:
       title: "NITI EV Handbook 2021"
       file_path: "data/raw/HandbookforEVChargingInfrastructureImplementation081221.pdf"
       section: "Planning & Infrastructure"
+
+qa_generation:
+  input_dir: data/processed
+  output_file: data/qa_dataset.jsonl

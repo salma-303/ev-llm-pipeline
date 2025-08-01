@@ -47,3 +47,5 @@ data/vectors/*
 # Reports and generated artifacts
 reports/
 outputs/
+
+test.py
